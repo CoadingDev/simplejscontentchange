@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing Div Content</title>
+</head>
+<body>
+    <div id="myDiv">Original content</div>
+    <button onclick="changeContent()">Change Content</button>
+    <button onclick="Reset()">Reset</button>
+    <script>
+        function changeContent() {
+            document.getElementById("myDiv").innerHTML = "This is the new content!";
+
+        }
+         function Reset(){
+            document.getElementById("myDiv").innerHTML = "Original Content";
+           }
+            
+
+
+
+
+        
+    </script>
+</body>
+</html>
